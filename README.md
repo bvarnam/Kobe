@@ -1,4 +1,4 @@
-# Kobe Bryant Shot Predictions Hackathon (with updates)
+# Kobe Bryant Shot Predictions Hackathon
 ---
 
 ## Project Background
