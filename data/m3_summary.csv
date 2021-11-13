@@ -1,0 +1,6 @@
+,Avg Acc,Final Acc,Recall,Precision,Specificity
+LR - Dataset 1,59.66,59.66,37.67,57.29,77.37
+LR - Dataset 2,60.0,60.0,35.82,58.35,79.4
+LR - Dataset 3,61.31,61.31,32.4,62.9,84.6
+LR - Dataset 4,60.45,60.45,40.32,58.21,76.67
+LR - Dataset 5,60.5,60.5,41.96,57.92,75.44

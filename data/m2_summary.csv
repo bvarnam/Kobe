@@ -1,0 +1,6 @@
+,Avg Acc,Final Acc,Recall,Precision,Specificity
+KNN - Dataset 1,61.0,60.74,30.59,62.24,85.05
+KNN - Dataset 2,60.0,60.0,18.7,69.16,93.28
+KNN - Dataset 3,60.5,60.5,32.16,60.82,83.31
+KNN - Dataset 4,60.6,60.6,33.55,60.62,82.43
+KNN - Dataset 5,60.74,60.74,30.8,62.14,84.88

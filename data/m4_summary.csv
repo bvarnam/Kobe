@@ -1,0 +1,6 @@
+,Avg Acc,Final Acc,Recall,Precision,Specificity
+RF - Dataset 1,61.0,61.0,32.72,61.91,83.78
+RF - Dataset 2,61.0,60.98,32.89,61.8,83.61
+RF - Dataset 3,61.15,61.15,34.32,61.62,82.77
+RF - Dataset 4,60.62,60.62,33.66,60.58,82.35
+RF - Dataset 5,60.74,60.74,30.8,62.14,84.88

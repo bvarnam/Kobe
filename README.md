@@ -1,51 +1,45 @@
-# ![GA Logo](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 4: Choose Your Own Adventure
+# Kobe Bryant Shot Predictions Hackathon (with updates)
+---
 
-Pick a Kaggle competition from the following list. You have the choice of completing a regression problem, a classification problem, or an NLP problem involving either classification or sentiment analysis. Perform some EDA, and fit and evaluate at least two models on the dataset you've chosen.
+## Project Background
+This project aims to predict whether or not Kobe Bryant will make or miss a shot given data denoted by the data dictionary provided below. This project was intentially done in a short amount of time, solo, without outside supervision or guidance (outside of stackoverflow and documentation).
+
+In summary, this project aims to show what can be accomplished in the data science process in a short period of time with a particular focus on exploratory analysis, feature engineering, and a variety of classification modeling types.
+
+This project was obtained through Kaggle:
+- [Kobe Bryant Shot Selection](https://www.kaggle.com/c/kobe-bryant-shot-selection)
+
+
+## Contents
+```code``` contains the python jupyter notebooks used to conduct the process and are labeled both in the order they were completed and what they are performing. Skip to the last notebook, '07_Analysis-and-Conclusion' for a summary of the modeling processes and final conclusions.
+
+
+## Software Packages
+- ```pandas``` for data handling and cleaning.
+- ```numpy``` for mathematical manipulations and calcuations.
+- ```scikitlearn``` for model preprocessing, selection, and training.
+- ```tensorflow``` for neural network creation and modeling.
+- ```XGBoost``` for extreme gradient boost modeling.
+- ```matplotlib``` for visualizations of analysis.
+- ```seaborn``` for additional visualizations of analysis.
+
 
 ## Datasets
+The dataset was provided through the kaggle page linked in **Project Background**. As stated on said page under Data Description, "This data contains the location and circumstances of every field goal attempted by Kobe Bryant took during his 20-year career."
 
-### Regression
 
-- [Restaurant Revenue Prediction](https://www.kaggle.com/c/restaurant-revenue-prediction)
-- [Video Game Sales Prediction](https://www.kaggle.com/rush4ratio/video-game-sales-with-ratings)
-- [Box Office Revenue Prediction](https://www.kaggle.com/c/tmdb-box-office-prediction)
-- [New York City Taxi Fare Prediction](https://www.kaggle.com/c/new-york-city-taxi-fare-prediction)
-
-### Classification
-
-- [Predicting a Biological Response](https://www.kaggle.com/c/bioresponse/data)
-- [Kobe Bryant Shot Selection](https://www.kaggle.com/c/kobe-bryant-shot-selection)
-- [Shelter Animal Outcomes](https://www.kaggle.com/c/shelter-animal-outcomes)
-- [Airbnb New User Bookings](https://www.kaggle.com/c/airbnb-recruiting-new-user-bookings)
-
-### NLP
-
-- [Sentiment Analysis on Movie Reviews](https://www.kaggle.com/c/sentiment-analysis-on-movie-reviews) / [Alternative Sentiment Analysis on Movie Reviews](https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
-- [What's Cooking?](https://www.kaggle.com/c/whats-cooking)
-- [Women's E-Commerce Clothing Reviews](https://www.kaggle.com/nicapotato/womens-ecommerce-clothing-reviews)
-
-### Image Classification
-
-- [Kannada MNIST](https://www.kaggle.com/c/Kannada-MNIST)
-- [Intel Image Classification](https://www.kaggle.com/puneet6060/intel-image-classification)
-
-## Timeline
-
-- **9am**: Project introduction.
-- **10am**: By 10am, answer the [check-in form](https://forms.gle/GqAeJa8WQcXTXdsg6) with the dataset you've chosen.
-- **4pm**: 3-minute lightning talks where you walk us through your process. **No slides necessary** -- it's fine if you'd prefer walk us through your Jupyter notebook instead, but remember you only have 3 minutes!
-- **5pm**: Make sure your project work has been pushed.
-
-## Guidelines
-
-We know this is a short time for a project. We're not expecting anything as polished as project two or three. However, the goal is for you to have something to show for your time. At a minimum, do some EDA and have at least two models fit and scored.
-
-## Rubric
-
-This project will be **PASS / FAIL**, so you will receive a grade of **1** or **0**.
-
-## Note
-
-Do not duplicate someone else's analysis and make sure to give credit to any resources you used. :)
-
-Have fun!
+## Data Dictionary
+**Final Dataset**
+|Feature  | Datatype |Description |
+--- | --- | --- 
+|combined_shot_type | str object | What type of shot was taken. (ex. Jump shot, Dunk) |
+|period | int | Which period the shot was taken in. |
+|shot_distance | int | How far from the basket the shot was taken from. |
+|shot_made_flag | int | Whether or not the shot was made (Target). |
+|shot_type | str object | 2point or 3point shot |
+|shot_zone_area | str object | Which part of the floor the shot was taken from. (ex. Left Side, Right Side, Center,...) |
+|shot_zone_basic | str object | General zone the shot was taken in related to distance from basket. (ex. Mid-Range, Restricted Area,...) |
+|shot_zone_range | str object | How far the shot was taken from the basket categorized by range. (ex. Less Than 8 ft., 8-16 ft.,...) |
+|opponent | str object | Season and city of opposing team. |
+|home_away | str object | Whether Kobe was playing at Home Stadium or away. |
+|time_sec_remaining | int | How many seconds remain in the period. |

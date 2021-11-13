@@ -1,0 +1,6 @@
+,Avg Acc,Final Acc,Recall,Precision,Specificity
+XG - Dataset 1,61.76,61.76,31.85,62.49,84.6
+XG - Dataset 2,61.14,61.14,32.44,62.42,84.26
+XG - Dataset 3,61.27,61.27,32.4,62.81,84.54
+XG - Dataset 4,60.62,60.62,30.8,62.14,84.88
+XG - Dataset 5,60.74,60.74,30.8,62.14,84.88
