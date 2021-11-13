@@ -19,7 +19,7 @@ This project was obtained through Kaggle:
 - ```assets``` contains the summary table for all models figure to be used in this ReadMe below.
 
 
-![Model Summary](https://github.com/bvarnam/Kobe/tree/main/assets/kobe-graph.jpg?raw=true)
+[Model Summary](https://github.com/bvarnam/Kobe/tree/main/assets/kobe-graph.jpg?raw=true)
 
 
 ## Software Packages
