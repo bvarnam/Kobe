@@ -10,13 +10,16 @@ This project was obtained through Kaggle:
 - [Kobe Bryant Shot Selection](https://www.kaggle.com/c/kobe-bryant-shot-selection)
 
 
-![Model Summary](https://github.com/bvarnam/Kobe/assets/kobe-graph.jpg?raw=true)
+
 
 
 ## Contents
 - ```code``` contains the python jupyter notebooks used to conduct the process and are labeled both in the order they were completed and what they are performing. Skip to the last notebook, '07_Analysis-and-Conclusion' for a summary of the modeling processes and final conclusions.
 - ```data``` contains the datasets used initially as well as the cleaned and feature engineered dataset. It also contains the summary tables for each model and the summary table for all models.
-- ```assets``` contains the summary table for all models figure to be used in this ReadMe above.
+- ```assets``` contains the summary table for all models figure to be used in this ReadMe below.
+
+
+![Model Summary](https://github.com/bvarnam/Kobe/tree/main/assets/kobe-graph.jpg?raw=true)
 
 
 ## Software Packages
